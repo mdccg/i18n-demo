@@ -1,0 +1,34 @@
+.header {
+  background-color: #043B5C;
+  padding: 20px;
+  display: flex;
+}
+
+.headerTitle {
+  color: #FFF;
+  margin: 0;
+  font-family: 'Lato';
+  font-weight: 700;
+}
+
+.flagButton {
+  background-color: transparent;
+  background-repeat: no-repeat;  /* TODO remover depois se necessário */
+  background-position-x: center; /* TODO remover depois se necessário */
+  background-position-y: center; /* TODO remover depois se necessário */
+  overflow: hidden;              /* TODO remover depois se necessário */
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: 32px;
+  padding: 0;
+  margin-right: 10px;
+}
+
+.flagButton:first-of-type {
+  margin-left: auto;
+}
+
+.flagButton img {
+  width: 100%;
+}
