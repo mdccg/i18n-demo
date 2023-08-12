@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import esAr from './../../assets/argentina.png';
 import ptBr from './../../assets/brasil.png';
+import koKr from './../../assets/coreia.png';
 import enUs from './../../assets/eua.png';
 import frFr from './../../assets/franca.png';
 import styles from './styles.module.css';
@@ -26,6 +27,10 @@ const Header = () => {
 
       <button className={styles.flagButton} onClick={() => i18n.changeLanguage('fr')}>
         <img src={frFr} alt="Français" />
+      </button>
+
+      <button className={styles.flagButton} onClick={() => i18n.changeLanguage('ko')}>
+        <img src={koKr} alt="한국인" />
       </button>
     </div>
   );

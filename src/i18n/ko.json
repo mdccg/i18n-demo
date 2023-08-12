@@ -1,0 +1,12 @@
+{
+  "translation": {
+    "appTitle": {
+      "main": "국제화",
+      "slogan": "여러 언어로 앱을 적응시키기"
+    },
+    "content": {
+      "foodSentence": "세계에서 가장 좋은 음식은 {{bestFood}}입니다.",
+      "currentDateTime": "오늘은 {{date, YYYY년 MMMM Do}} 입니다. 현재 시각은 {{date, hh:mm}} 입니다."
+    }
+  }
+}

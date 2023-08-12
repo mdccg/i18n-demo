@@ -6,6 +6,7 @@ import en from './en.json';
 import es from './es.json';
 import fr from './fr.json';
 import pt from './pt.json';
+import ko from './ko.json';
 
 i18next
   .use(LanguageDetector)
@@ -25,7 +26,7 @@ i18next
         }
       } 
     },
-    resources: { en, pt: pt, es, fr }
+    resources: { en, pt: pt, es, fr, ko }
   });
 
 export default i18next;
