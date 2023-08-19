@@ -1,8 +1,8 @@
-# exemplo-i18n
+# i18n-demo
 
 ## Sumário
 
-- [exemplo-i18n](#exemplo-i18n)
+- [i18n-demo](#i18n-demo)
   - [Sumário](#sumário)
   - [Motivação](#motivação)
   - [Pilha de tecnologia](#pilha-de-tecnologia)
